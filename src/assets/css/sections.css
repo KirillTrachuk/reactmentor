@@ -1,0 +1,85 @@
+.hero{
+    display: flex;
+    padding-left: 140px;
+    .hero-left{
+        display: flex;
+        position: relative;
+        /* margin-right: 323px; */
+        .decorate{
+            display: flex;
+            position: absolute;
+            left: -21px;
+            transform: rotate(180deg);
+            bottom: 0;
+            span{
+                font-size:240px;
+                line-height: 240px;
+                opacity: 0.25;
+                font-family: 'raleway-semibold';
+                color: #0D0F16;
+                text-transform: uppercase;
+                font-weight: 900;
+                writing-mode: vertical-lr;
+                position: relative;
+                left: 80px;
+            }
+            span:nth-of-type(2){
+                font-size:120px;
+                line-height: 120px;
+                opacity: 1;
+                left: 0;
+            }
+        }
+        .decorate:nth-of-type(2){
+            left: unset;
+            right: -320px;
+            align-items: flex-end;
+            bottom: unset;
+            top: 0;
+            span{
+                color: #fff;
+                opacity: 3%;
+            }
+            span:nth-of-type(2){
+                opacity: 1;
+            }
+            
+        }
+        img{
+            width: 32vw;
+            height: 100vh;
+        }
+        
+    }
+    .hero-right{
+        display: flex;
+        flex-direction: column;
+        width: 456px;
+        justify-content: center;
+        margin-left: 300px;
+        gap: 20px;
+       p{
+        margin-bottom: 50px;
+       }
+    }
+    .wave{
+        position: absolute;
+        width: 640px;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+    .circle{
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        top: -300px;
+        right: -300px;
+        background: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
+        opacity: 7%;
+        border-radius: 100%;
+        filter: blur(50px);
+        z-index: 0;
+    }
+
+}

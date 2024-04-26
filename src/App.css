@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import './assets/css/buttons.css'; 
+
+@font-face {
+  font-family: "mulish-regular";
+  src: url("../src/assets/fonts/Mulish-Regular.woff2") format("woff2"),
+       url("../src/assets/fonts/Mulish-Regular.woff") format("woff");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "mulish-semibold";
+  src: url("../src/assets/fonts/Mulish-SemiBold.woff2") format("woff2"),
+       url("../src/assets/fonts/Mulish-SemiBold.woff") format("woff");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+@font-face {
+  font-family: "raleway-regular";
+  src: url("../src/assets/fonts/Raleway-Regular.woff") format("woff2"),
+       url("../src/assets/fonts/Raleway-Regular.woff") format("woff");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: "raleway-bold";
+  src: url("../src/assets/fonts/Raleway-Bold.woff") format("woff2"),
+       url("../src/assets/fonts/Raleway-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "raleway-semibold";
+  src: url("../src/assets/fonts/Raleway-Black.woff2") format("woff2"),
+       url("../src/assets/fonts/Raleway-Black.woff") format("woff");
+}
+  
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  background: #0D0F16;
+}
+
+section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.title-h3{
+  display: flex;
+  font-size: 12px;
+  line-height: 19px;
+  color: #FF455B;
+  text-transform: uppercase;
+  font-family: 'mulish-semibold';
+  img{
+    margin-right: 10px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.title-h2{
+  font-size: 48px;
+  line-height: 57px;
+  color: #FFF;
+  font-family: 'raleway-bold';
+  text-transform: capitalize;
+  img{
+    margin-right: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.desc-1{
+  font-size: 24px;
+  line-height: 34px;
+  color: #989CAC;
+  font-family: 'mulish-regular';
 }

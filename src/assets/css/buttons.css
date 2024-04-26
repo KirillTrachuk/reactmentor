@@ -1,0 +1,21 @@
+.big-button{
+    display: flex;
+    width: 173px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px #8E898D solid;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.big-button:hover{
+    background: #8E898D
+}
+.big-button.color{
+    border: 2px transparent solid;
+    background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
+}
+.big-button.color:hover{
+    border: 2px #f80101 solid;
+}
