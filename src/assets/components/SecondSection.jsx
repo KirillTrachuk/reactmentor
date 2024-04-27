@@ -5,12 +5,9 @@ const SecondSection = () => {
     return(
         <section className='services'>
             <div className="services-left">
-                <h3 className='title-h3'><img src="../images/triangle.svg" alt="triangle"/>more than obvious</h3>
-                <h2 className="title-h2">Digital products for your brand</h2>
-                <p className="desc-1">Our team is waiting for a new challenge, so we’re ready to make a cool brand.</p>
-                <a href="#" className="big-button color">
-                    Get more
-                </a>
+                <h3 className='title-h3'><img src="../images/triangle.svg" alt="triangle"/>Our Services</h3>
+                <h2 className="title-h2">we develop digital products</h2>
+                <p className="desc-1">You can discover all our services by clicking the link below.</p>
             </div>
             <div className="services-right"></div>
         </section>
