@@ -79,7 +79,7 @@
         opacity: 7%;
         border-radius: 100%;
         filter: blur(50px);
-        z-index: 0;
+        z-index: -1;
     }
 
 }

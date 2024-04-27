@@ -8,6 +8,9 @@
     transition: all .3s ease-in-out;
     text-decoration: none;
     color: #FFFFFF;
+    font-family: 'mulish-semibold';
+    font-size: 16px;
+    line-height: 27px;
 }
 .big-button:hover{
     background: #8E898D
