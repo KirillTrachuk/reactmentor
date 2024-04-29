@@ -11,6 +11,7 @@
     font-family: 'mulish-semibold';
     font-size: 16px;
     line-height: 27px;
+    cursor: pointer;
 }
 .big-button:hover{
     background: #8E898D

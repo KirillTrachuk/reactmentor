@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import "../css/sections.css";
+// import "../assets/css/sections.css";
 
 const FirstSection = () => {
     return(
