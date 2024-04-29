@@ -1,4 +1,11 @@
 @import './assets/css/buttons.css'; 
+@import './assets/css/header.css';
+@import './assets/css/sections.css';
+@import './assets/css/second-section.css';
+@import './assets/css/third-section.css';
+@import './assets/css/fourth-section.css';
+@import './assets/css/formsection.css';
+/* @import */
 
 @font-face {
   font-family: "mulish-regular";
@@ -10,6 +17,12 @@
   font-family: "mulish-semibold";
   src: url("../src/assets/fonts/Mulish-SemiBold.woff2") format("woff2"),
        url("../src/assets/fonts/Mulish-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "mulish-extrabold";
+  src: url("../src/assets/fonts/Mulish-ExtraBold.woff2") format("woff2"),
+       url("../src/assets/fonts/Mulish-ExtraBold.woff") format("woff");
 }
 
 
@@ -41,6 +54,10 @@
 
 body{
   background: #0D0F16;
+}
+
+a{
+  text-decoration: none;
 }
 
 section {
@@ -77,6 +94,15 @@ section {
     margin-right: 10px;
   }
 }
+
+.title-h5{
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFF;
+  font-family: 'raleway-bold';
+  text-transform: capitalize;
+}
+
 .desc-1{
   font-size: 24px;
   line-height: 34px;

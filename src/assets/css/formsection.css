@@ -1,0 +1,36 @@
+.formsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 377px;
+    gap: 100px;
+    .form-content{
+        width: 360px;
+        h2{
+            font-size: 32px;
+            line-height: 42px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    form{
+        display: flex;
+        input{
+            width: 478px;
+            height: 50px;
+            background: transparent;
+            border: 1px solid #6c6d73;
+            margin-right: 30px;
+            color: #6c6d73;
+            padding: 20px;
+            outline: none;
+            
+        }
+        input::placeholder{
+            color: #6c6d73;
+        }
+        
+    }
+}
